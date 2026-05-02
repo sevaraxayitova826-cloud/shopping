@@ -1,0 +1,75 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;  /*rasmni to'lliq chozish */
+    font-family: "Poppins";
+    background: #000000;
+    background: -webkit-linear-gradient(170deg, rgba(0, 0, 0, 1) 45%, rgba(87, 173, 199, 1) 55%);
+    background: -moz-linear-gradient(170deg, rgba(0, 0, 0, 1) 45%, rgba(87, 173, 199, 1) 55%);
+    background: linear-gradient(170deg, rgba(0, 0, 0, 1) 45%, rgba(87, 173, 199, 1) 55%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#57ADC7", GradientType=0);
+}
+.title-1 {
+    font-family: Goldman;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    color: #0000006a;
+    text-shadow: 0 0 7px #5bc0de, 0 0 10px #5bc0de, 0 0 21px #5bc0de, 0 0 42px #000;
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+    gap: 80px;
+}
+.box {
+    text-align: center;
+    border: 1px solid #00fbff;
+    border-radius: 20px;
+    background-color: #00fbff89;
+    box-shadow: 0 0 7px #5bc0de, 0 0 10px #0a0b0b, 0 0 21px #5bc0de, 0 0 42px #000;
+}
+.box:hover {
+    box-shadow: 0 0 7px #ffffff, 0 0 10px #000000, 0 0 21px #680cf3, 0 0 42px #000;
+    background-color: #7cd771;
+    margin-top: -10px;
+    transform: scale(0.95);
+}
+.img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    display: block;
+    transition: all 0.5s ease;
+}
+.img:active {
+    width: 250px;
+    height: 250px;
+    transform: scale(0.95);
+}
+.title {
+    font-family: Dancing Script;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-bottom: 1px solid #00fbff;
+    padding-bottom: 2px;
+    transition: 0.3s;
+}
+.text {
+    font-family: Poppins;
+    padding-top: 10px;
+    color: #0000006a;
+    text-shadow: 0 0 7px #5bc0de, 0 0 10px #0a0b0b, 0 0 21px #5bc0de, 0 0 42px #000;
+    font-size: 12px;
+}
