@@ -39,7 +39,7 @@ body {
     box-shadow: 0 0 7px #ffffff, 0 0 10px #000000, 0 0 21px #680cf3, 0 0 42px #000;
     background-color: #7cd771;
     margin-top: -10px;
-    transform: scale(0.95);
+    transform: scale(1.1);
 }
 .img {
     width: 200px;
